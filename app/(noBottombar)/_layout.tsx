@@ -1,13 +1,12 @@
 import { Slot } from "expo-router";
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function RootLayout(){
     return <SafeAreaView>
-        <View style={{ backgroundColor: 
-            "red"
+        <View style={{ 
          }}> 
-            <Text>Go Back</Text>
+         
         </View>
         <Slot />
     </SafeAreaView>
